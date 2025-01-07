@@ -1,0 +1,79 @@
+/*
+Theme Name: UikitPro
+Theme URI: https://s7template.com/react/uikitpro
+Author: s7template
+Author URI: http://s7template.com/
+Description: Mobilekit Wallet & Banking React JS Mobile Template
+Version: 1.0.1
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Global
+    ## Global
+    ## Mixins
+    ## Variables
+    ## Common
+
+# Sections
+
+    ## Widgets
+    ## Header
+    ## Banner
+    ## Content
+    ## Footer
+
+# Components
+    ## _header-style
+    ## _ui_commmon
+    ## _accordion
+    ## _alerts
+    ## _buttons
+    ## _modal
+    ## _progress
+    ## _tabs
+    ## _tooltip
+    ## _notifications
+    ## _dark
+    ## _badge
+    ## _table
+    ## _demo
+
+# Responsive
+
+    ## responsive
+
+--------------------------------------------------------------*/
+
+//== Global Design
+@import "global/_global";
+@import "global/_mixins";
+@import "global/_variables";
+@import "global/_common";
+//== Pages
+//== Sections
+@import "sections/_widgets";
+@import "sections/_header";
+@import "sections/_banner";
+@import "sections/_content";
+@import "sections/_footer";
+//== Components
+@import "components/_header-style";
+@import "components/_ui_commmon";
+@import "components/_accordion";
+@import "components/_alerts";
+@import "components/_buttons";
+@import "components/_modal";
+@import "components/_progress";
+@import "components/_tabs";
+@import "components/_tooltip";
+@import "components/_notifications";
+@import "components/_dark";
+@import "components/_badge";
+@import "components/_table";
+@import "components/_demo";
+
+//=== Responsive
+
+@import "sections/responsive";

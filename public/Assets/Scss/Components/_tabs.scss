@@ -1,0 +1,127 @@
+/*
+ * TABS
+ */
+
+.basic-tabs {
+  .widget-header {
+    font-size: 20px;
+  }
+  .widget {
+    .react-tabs {
+      padding: 22px 15px;
+      .react-tabs__tab-list {
+        border-bottom: 0;
+        margin: 0 0 10px;
+        padding: 0;
+        .react-tabs__tab {
+          font-size: 16px;
+          position: initial;
+          padding: 6px 18px;
+          border: none;
+          border-bottom: 3px solid #eee !important;
+          &.react-tabs__tab--selected {
+            border-bottom: 3px solid #5d5386 !important;
+          }
+          &:focus::after {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+.tabs-dropdown {
+  .widget-header {
+    font-size: 20px;
+  }
+  .widget {
+    .react-tabs {
+      padding: 22px 15px;
+      .react-tabs__tab-list {
+        border-bottom: 0;
+        margin: 0 0 10px;
+        padding: 0;
+        .react-tabs__tab {
+          font-size: 16px;
+          position: initial;
+          padding: 10px 30px;
+          border: none;
+          &.react-tabs__tab--selected {
+            background: #0d6efd;
+            padding: 10px 30px;
+            border-radius: 6px;
+            border: none;
+            color: #fff;
+          }
+          &:focus::after {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+.vertical-tabs {
+  .widget-header {
+    font-size: 20px;
+  }
+  .widget {
+    .react-tabs {
+      padding: 22px 15px;
+      display: flex;
+      .react-tabs__tab-list {
+        border-bottom: 0;
+        margin: 0 0 10px;
+        padding: 0;
+        min-width: 120px;
+        display: initial;
+        .react-tabs__tab {
+          font-size: 16px;
+          position: initial;
+          padding: 8px 24px;
+          border: none;
+          &.react-tabs__tab--selected {
+            background: #0d6efd;
+            border-radius: 6px;
+            border: none;
+            color: #fff;
+          }
+          &:focus::after {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.icon-tabs {
+  .widget-header {
+    font-size: 20px;
+  }
+  .widget {
+    .react-tabs {
+      padding: 22px 15px;
+      .react-tabs__tab-list {
+        border-bottom: 0;
+        margin: 0 0 10px;
+        padding: 0;
+        border-bottom: 3px solid #eee !important;
+        .react-tabs__tab {
+          font-size: 16px;
+          position: relative;
+          top: 3px;
+          padding: 6px 18px;
+          border: none;
+
+          &.react-tabs__tab--selected {
+            border-bottom: 3px solid #5d5386 !important;
+          }
+          &:focus::after {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
